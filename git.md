@@ -24,5 +24,25 @@
 # git add . => Dùng để thêm tất cả file ở trong thư mục hiện tại vào trong staging
 
 # git add -A => Dùng để thêm tất cả các file ở trong dự án vào trong staging
-
+ 
 # git add => <đường dẫn file> => Chỉ thêm file cụ thể vào trong staging
+
+# working directory (file màu đỏ) không thể đưa lên repo
+# staging (file màu xanh lá) 
+# => Lúc này file sẵn sàng để đưa lên repo
+
+# congif git
+### git config --global user.name "name"
+### git config --global user.email "abc@email'
+
+# git commit -m "mesage"
+# => Dùng để gắn message vào trong những  file đang ở staging được phép đưa lên repo remote
+# Mỗi commit có một cái mã sha(id)
+
+
+# git log 
+# => Dùng để kiểm tra lịch sử commit
+
+# git push -u origin <tên nhánh>
+# =>đưa code lên repo remote
+# => từ lần push code thứ 2: git push
