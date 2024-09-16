@@ -46,3 +46,29 @@
 # git push -u origin <tên nhánh>
 # =>đưa code lên repo remote
 # => từ lần push code thứ 2: git push
+
+# Đưa file từ staging về lại woking
+# git reset
+# git restore -S . (Đưa tát cả các file đang ở staging về working)
+# git restore -S<url flie> (Chỉ đưa duy nhát file về working)
+
+
+# git checkout <url file>
+# => 1. Đưa 1 file đang được chỉnh về trạng thái đó
+# => git checkout -b <tên nhánh>
+=> tương đương với 2 lệnh git branch + git switch
+
+
+### branch
+/ Dev => kiểm thử QA và dev (dev)
+// staging => QA kiểm thử 1 lần (staging)
+/// production => end user (main/release)
+# git branch <tên nhánh> 
+Tạo ra 1 nhánh mới 
+Nhánh mới sẽ chứa toàn bộ code của nhánh đang đứng
+
+# git branch -a
+=> Liệt kê tất các branch đang có trong repo
+
+# git switch <tên nhánh>
+=>Chuyển quan nhánh<Tên nhánh>
