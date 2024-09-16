@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ----------------- */
+@layer components {
+    .link {
+        @apply cursor-pointer hover:text-white hover:underline underline-offset-4 transition-all;
+    }
+}
+/* Min-widtd : tương thích với máy lớn hơn hoặc = 640px */
+@media screen and (min-width:640px) {
+    /* CSS */
+    .sub-title{
+        color: red;
+    }
+}
+/* break point : 640px(sm), 768px(md), 1024px(lg), 1280(xl), 1536px(2xl) */
+/* /* Min-widtd : tương thích với máy nhỏ hơn hoặc = 640px */
+@media screen and (min-width:768px) {
+    /* CSS */
+    .sub-title{
+        color: green;;
+    }
+}
+
+/* Tùy chỉnh các dots bằng CSS để ghi đè mặc định của Slick */
+
