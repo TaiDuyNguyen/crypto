@@ -46,3 +46,4 @@
 # git push -u origin <tên nhánh>
 # =>đưa code lên repo remote
 # => từ lần push code thứ 2: git push
+# Dis
