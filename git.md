@@ -46,6 +46,9 @@
 # git push -u origin <tên nhánh>
 # =>đưa code lên repo remote
 # => từ lần push code thứ 2: git push
+<<<<<<< HEAD
+# Dis
+=======
 
 # Đưa file từ staging về lại woking
 # git reset
@@ -55,9 +58,11 @@
 
 # git checkout <url file>
 # => 1. Đưa 1 file đang được chỉnh về trạng thái đó
-# => git checkout -b <tên nhánh>
+# git checkout -b <tên nhánh>
 => tương đương với 2 lệnh git branch + git switch
-
+# git checkout <tên nhánh>
+=> tương đương với lệnh git switch
+=> dùng để chuyển qua <tên nhánh>
 
 ### branch
 / Dev => kiểm thử QA và dev (dev)
@@ -72,3 +77,12 @@ Nhánh mới sẽ chứa toàn bộ code của nhánh đang đứng
 
 # git switch <tên nhánh>
 =>Chuyển quan nhánh<Tên nhánh>
+<!-- Đưa code từ github về máy -->
+# git pull
+=> Pull code ở repo remote về local
+
+# git pull --no-ff (Nếu git pull bị lỗi thì thử lại)
+
+### git clone <url repo>
+=> Dùng  để clone soure code của 1 repo bất kì
+>>>>>>> main
