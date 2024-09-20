@@ -85,4 +85,13 @@ Nhánh mới sẽ chứa toàn bộ code của nhánh đang đứng
 
 ### git clone <url repo>
 => Dùng  để clone soure code của 1 repo bất kì
+<<<<<<< HEAD
+
+# git meger <branch>
+merge<branch> vào branch hiện tại
+TH1 : merge thành công nếu không có bất kì sung đột (conflict)
+TH2 : bị xung đột => giải quyết conflict => commit
+=>Nếu merge code mà bị conflict => có thể hủy git merge thông qua lệnh : git merge --abort
+=======
 >>>>>>> main
+>>>>>>> 0c128e90c2a2ee18e2aeebaa60678c5dc4fd58d7
